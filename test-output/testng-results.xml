@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23805" started-at="2017-12-09T06:32:14Z" finished-at="2017-12-09T06:32:38Z">
+    <groups>
+      <group name="qa">
+        <method signature="Scenario_Login.Login_validLogin(java.util.Map)[pri:0, instance:Scripts.Scenario_Login@19d02cb]" name="Login_validLogin" class="Scripts.Scenario_Login"/>
+        <method signature="Scenario_Search.Search_validSearch(java.util.Map)[pri:0, instance:Scripts.Scenario_Search@10736d9]" name="Search_validSearch" class="Scripts.Scenario_Search"/>
+      </group> <!-- qa -->
+      <group name="dev">
+        <method signature="Scenario_Login.Login_validLogin(java.util.Map)[pri:0, instance:Scripts.Scenario_Login@19d02cb]" name="Login_validLogin" class="Scripts.Scenario_Login"/>
+      </group> <!-- dev -->
+    </groups>
+    <test name="Test" duration-ms="23805" started-at="2017-12-09T06:32:14Z" finished-at="2017-12-09T06:32:38Z">
+      <class name="Scripts.Scenario_Search">
+        <test-method status="PASS" signature="initializeReport()[pri:0, instance:Scripts.Scenario_Search@10736d9]" name="initializeReport" is-config="true" duration-ms="94" started-at="2017-12-09T12:02:14Z" finished-at="2017-12-09T12:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReport -->
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:Scripts.Scenario_Search@10736d9]" name="launchApp" is-config="true" duration-ms="8065" started-at="2017-12-09T12:02:15Z" finished-at="2017-12-09T12:02:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="Search_validSearch(java.util.Map)[pri:0, instance:Scripts.Scenario_Search@10736d9]" name="Search_validSearch" duration-ms="2731" started-at="2017-12-09T12:02:23Z" data-provider="dp" finished-at="2017-12-09T12:02:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, search=Jaico, TC_ID=GB_11, Execute=y, Ascript=validSearch, expmsg=1.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_validSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Scripts.Scenario_Search@10736d9]" name="tearDown" is-config="true" duration-ms="584" started-at="2017-12-09T12:02:26Z" finished-at="2017-12-09T12:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Scripts.Scenario_Search -->
+      <class name="Scripts.Scenario_Login">
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:Scripts.Scenario_Login@19d02cb]" name="launchApp" is-config="true" duration-ms="6343" started-at="2017-12-09T12:02:26Z" finished-at="2017-12-09T12:02:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="Login_validLogin(java.util.Map)[pri:0, instance:Scripts.Scenario_Login@19d02cb]" name="Login_validLogin" duration-ms="4969" started-at="2017-12-09T12:02:33Z" data-provider="dp" finished-at="2017-12-09T12:02:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, TC_ID=GB_07, Execute=y, uname=qtpworld2008@gmail.com, Ascript=validLogin, Env=qa, pwd=learn123, exp_msg=Hi qtpworld2008 g}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_validLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Scripts.Scenario_Login@19d02cb]" name="tearDown" is-config="true" duration-ms="360" started-at="2017-12-09T12:02:38Z" finished-at="2017-12-09T12:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Scripts.Scenario_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

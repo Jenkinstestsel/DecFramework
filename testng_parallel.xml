@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+  <test name="Chrome">
+  <parameter name="browser" value="ch"></parameter>
+    <classes>
+      <class name="Scripts.Scenario_Login"/>
+      <class name="Scripts.Scenario_Search"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="IE">
+  <parameter name="browser" value="ie"></parameter>
+    <classes>
+      <class name="Scripts.Scenario_Login"/>
+      <class name="Scripts.Scenario_Search"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="FireFox">
+  <parameter name="browser" value="ff"></parameter>
+    <classes>
+      <class name="Scripts.Scenario_Login"/>
+      <class name="Scripts.Scenario_Search"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

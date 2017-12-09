@@ -1,0 +1,8 @@
+[INFO] 2017-12-09 11:38:07,552 Scripts.Scenario_Login Login_invalidLogin - Started execution of GB_01_1.0
+[ERROR] 2017-12-09 11:38:07,568 Scripts.Scenario_Login Login_invalidLogin - Didnot reach Home Page
+[INFO] 2017-12-09 11:38:19,188 Scripts.Scenario_Login Login_invalidLogin - Started execution of GB_06_1.0
+[ERROR] 2017-12-09 11:38:19,204 Scripts.Scenario_Login Login_invalidLogin - Didnot reach Home Page
+[INFO] 2017-12-09 11:38:30,891 Scripts.Scenario_Login Login_validLogin - Started execution of GB_07_1.0
+[ERROR] 2017-12-09 11:38:30,906 Scripts.Scenario_Login Login_validLogin - Didnot reach Home Page
+[INFO] 2017-12-09 11:38:56,128 Scripts.Scenario_Login Login_invalidLogin - Started execution of GB_01_1.0
+[ERROR] 2017-12-09 11:38:56,137 Scripts.Scenario_Login Login_invalidLogin - Didnot reach Home Page
