@@ -24,7 +24,7 @@ public class Scenario_Login extends Commonlib {
 //	valid login
 	@Test(dataProvider="dp",dataProviderClass = dataProvider.Dp.class,groups={"qa","dev"})
 	public void Login_validLogin(Map<String,String> hm) throws Exception{
-		
+		System.out.println("hello");
 		TCID =hm.get("TC_ID");
 		Orderid =hm.get("Order");
 		startTest = eReports.startTest(TCID + "_" + Orderid);
@@ -41,7 +41,7 @@ public class Scenario_Login extends Commonlib {
 			startTest.log(LogStatus.FAIL, "Home page Validation","Failed validated Home Page as Expected was Rediff  and actual is " + ff.getTitle() );
 		}
 		
-		
+		System.out.println("hello");
 //		ff.findElement(By.linkText("Sign In")).click();
 //		home.lk_signIn.click();
 		keywords.click(home.lk_signIn);
